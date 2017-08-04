@@ -1,0 +1,20 @@
+{
+    "prepare_queue": {
+        "installed": [],
+        "uninstalled": []
+    },
+    "config_munge": {
+        "files": {}
+    },
+    "installed_plugins": {
+        "cordova-plugin-whitelist": {
+            "PACKAGE_NAME": "com.ydwx.khshopping"
+        },
+        "cordova-plugin-facebook4": {
+            "APP_ID": "756995364450572",
+            "APP_NAME": "KhShopping",
+            "PACKAGE_NAME": "com.ydwx.khshopping"
+        }
+    },
+    "dependent_plugins": {}
+}
