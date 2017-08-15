@@ -42,6 +42,7 @@
     if (self) {
         self.engineWebView = [[UIWebView alloc] initWithFrame:frame];
         self.engineWebView.frame = CGRectMake(0, frame.origin.y + 20, frame.size.width, frame.size.height - 20);
+        
         NSLog(@"Using UIWebView");
     }
 
