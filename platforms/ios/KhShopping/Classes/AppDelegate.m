@@ -29,12 +29,10 @@
 #import "MainViewController.h"
 #import "KHSSrcPageManager.h"
 
-
 @implementation AppDelegate
 
 - (BOOL)application:(UIApplication*)application didFinishLaunchingWithOptions:(NSDictionary*)launchOptions
 {
-
     [KHSSrcPageManager requestNetworkStartPage];
     self.viewController = [[MainViewController alloc] init];
     return [super application:application didFinishLaunchingWithOptions:launchOptions];

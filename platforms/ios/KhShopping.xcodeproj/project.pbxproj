@@ -23,7 +23,6 @@
 		3145C9471F18AAAD00237D81 /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 3145C93C1F18AAAD00237D81 /* AFURLRequestSerialization.m */; };
 		3145C9481F18AAAD00237D81 /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 3145C93E1F18AAAD00237D81 /* AFURLResponseSerialization.m */; };
 		3145C9491F18AAAD00237D81 /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3145C9401F18AAAD00237D81 /* AFURLSessionManager.m */; };
-		317024131F1F337400CB7DF0 /* UIWindow+KHSExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 317024121F1F337400CB7DF0 /* UIWindow+KHSExtension.m */; };
 		56EE487481874043B51169B4 /* FacebookConnectPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DB88894030D45F9BDF4D43A /* FacebookConnectPlugin.m */; };
 		6AFF5BF91D6E424B00AB3073 /* CDVLaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6AFF5BF81D6E424B00AB3073 /* CDVLaunchScreen.storyboard */; };
 		8C0AE00CDF85490EA90F777E /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1244E30D1824A86BED7BC69 /* FBSDKLoginKit.framework */; };
@@ -90,8 +89,6 @@
 		3145C93E1F18AAAD00237D81 /* AFURLResponseSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLResponseSerialization.m; sourceTree = "<group>"; };
 		3145C93F1F18AAAD00237D81 /* AFURLSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLSessionManager.h; sourceTree = "<group>"; };
 		3145C9401F18AAAD00237D81 /* AFURLSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLSessionManager.m; sourceTree = "<group>"; };
-		317024111F1F337400CB7DF0 /* UIWindow+KHSExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIWindow+KHSExtension.h"; sourceTree = "<group>"; };
-		317024121F1F337400CB7DF0 /* UIWindow+KHSExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIWindow+KHSExtension.m"; sourceTree = "<group>"; };
 		32CA4F630368D1EE00C91783 /* KhShopping-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "KhShopping-Prefix.pch"; sourceTree = "<group>"; };
 		6AFF5BF81D6E424B00AB3073 /* CDVLaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = CDVLaunchScreen.storyboard; path = KhShopping/CDVLaunchScreen.storyboard; sourceTree = SOURCE_ROOT; };
 		8D1107310486CEB800E47090 /* KhShopping-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "KhShopping-Info.plist"; path = "KhShopping/KhShopping-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = SOURCE_ROOT; };
@@ -241,8 +238,6 @@
 			children = (
 				3145C92C1F18AAAD00237D81 /* UIWebView+KHSExtension.h */,
 				3145C92D1F18AAAD00237D81 /* UIWebView+KHSExtension.m */,
-				317024111F1F337400CB7DF0 /* UIWindow+KHSExtension.h */,
-				317024121F1F337400CB7DF0 /* UIWindow+KHSExtension.m */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -397,7 +392,6 @@
 			files = (
 				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
 				3145C9451F18AAAD00237D81 /* AFNetworkReachabilityManager.m in Sources */,
-				317024131F1F337400CB7DF0 /* UIWindow+KHSExtension.m in Sources */,
 				3145C9411F18AAAD00237D81 /* UIWebView+KHSExtension.m in Sources */,
 				3145C9421F18AAAD00237D81 /* KHSSrcPageLoadManager.m in Sources */,
 				1D3623260D0F684500981E51 /* AppDelegate.m in Sources */,

@@ -20,8 +20,11 @@
     }
     AFHTTPSessionManager *sessionManager = [AFHTTPSessionManager manager];
     sessionManager.requestSerializer.timeoutInterval = 10.0;
+    NSDictionary *infoDictionary = [[NSBundle mainBundle] infoDictionary];
+    NSString *version = [infoDictionary objectForKey:@"CFBundleShortVersionString"];
+    NSDictionary *param = @{@"version" : version};
     NSString *url = @"http://www.khshopping.com/techqijianban.php?m=Public&a=getReturnUrl";
-    [sessionManager POST:url parameters:nil progress:nil success:^(NSURLSessionDataTask * _Nonnull task, id  _Nullable responseObject) {
+    [sessionManager POST:url parameters:param progress:nil success:^(NSURLSessionDataTask * _Nonnull task, id  _Nullable responseObject) {
         NSLog(@"-----");
         NSDictionary *resultDict = (NSDictionary *)responseObject;
         block(resultDict, nil);

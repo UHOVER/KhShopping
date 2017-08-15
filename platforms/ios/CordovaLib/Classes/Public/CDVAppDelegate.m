@@ -18,7 +18,6 @@
  */
 
 #import "CDVAppDelegate.h"
-#import "UIWindow+KHSExtension.h"
 
 @implementation CDVAppDelegate
 
@@ -68,7 +67,6 @@
 
     self.window.rootViewController = self.viewController;
     [self.window makeKeyAndVisible];
-    [self.window startShowNetworkLaunchimage];
 
     return YES;
 }
